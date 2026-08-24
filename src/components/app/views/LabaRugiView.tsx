@@ -220,15 +220,15 @@ export const LabaRugiView: React.FC = () => {
         </div>
 
         {/* Interpretation Box */}
-        <div className="bg-[#E6F0DC] border border-[#CBE0B6] rounded-smarta-lg p-5.5 text-[#254032] flex flex-col justify-between">
+        <div className="bg-[#E6F0DC] border border-[#CBE0B6] rounded-smarta-lg p-5 sm:p-6 text-[#254032] flex flex-col justify-between shadow-smarta1">
           <div>
             <span className="bg-brand-deep text-white rounded-full py-1.5 px-3.5 text-xs font-semibold inline-block">
               {itp.judul}
             </span>
-            <p className="text-[13.5px] mt-3.5 mb-2 leading-relaxed text-[#254032]">
+            <p className="text-[13.5px] mt-3.5 mb-2 leading-relaxed text-[#254032] font-normal">
               {itp.kalimat}
             </p>
-            <ul className="pl-4.5 my-3 text-xs sm:text-[13px] space-y-2 list-disc text-[#254032]">
+            <ul className="pl-5 my-3 text-xs sm:text-[13.5px] space-y-2 list-disc text-[#254032]">
               {itp.poin.map((point, idx) => (
                 <li key={idx} className="leading-relaxed">
                   {point}
@@ -236,7 +236,7 @@ export const LabaRugiView: React.FC = () => {
               ))}
             </ul>
           </div>
-          <div className="text-[11.5px] text-brand-muted mt-4 border-t border-[#CBE0B6]/60 pt-3">
+          <div className="text-[11.5px] text-[#426150] mt-4 border-t border-[#CBE0B6] pt-3">
             Interpretasi dianalisis otomatis berdasarkan riwayat pendapatan dan beban usaha.
           </div>
         </div>

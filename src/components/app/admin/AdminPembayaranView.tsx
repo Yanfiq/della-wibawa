@@ -100,7 +100,7 @@ export const AdminPembayaranView: React.FC = () => {
 
       {/* 3 Summary Cards */}
       <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mb-4">
-        <div className="bg-white rounded-smarta-lg p-4.5 shadow-smarta1 border border-brand-line/40">
+        <div className="bg-white rounded-smarta-lg p-5 shadow-smarta1 border border-brand-line/40">
           <div className="flex items-center gap-2 text-[13px] text-brand-muted font-medium">
             <Icon name="inbox" size="sm" />
             Menunggu Verifikasi
@@ -110,7 +110,7 @@ export const AdminPembayaranView: React.FC = () => {
           </div>
         </div>
 
-        <div className="bg-white rounded-smarta-lg p-4.5 shadow-smarta1 border border-brand-line/40">
+        <div className="bg-white rounded-smarta-lg p-5 shadow-smarta1 border border-brand-line/40">
           <div className="flex items-center gap-2 text-[13px] text-brand-muted font-medium">
             <Icon name="check" size="sm" />
             Disetujui
@@ -120,7 +120,7 @@ export const AdminPembayaranView: React.FC = () => {
           </div>
         </div>
 
-        <div className="bg-white rounded-smarta-lg p-4.5 shadow-smarta1 border border-brand-line/40">
+        <div className="bg-white rounded-smarta-lg p-5 shadow-smarta1 border border-brand-line/40">
           <div className="flex items-center gap-2 text-[13px] text-brand-muted font-medium">
             <Icon name="bell" size="sm" />
             Ditolak

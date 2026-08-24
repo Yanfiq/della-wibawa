@@ -116,7 +116,7 @@ export const BerandaView: React.FC = () => {
       {/* 4 Stat Cards */}
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
         {/* Pemasukan */}
-        <div className="bg-white rounded-smarta-lg p-4.5 shadow-smarta1 border border-brand-line/40">
+        <div className="bg-white rounded-smarta-lg p-5 shadow-smarta1 border border-brand-line/40">
           <div className="flex items-center gap-2 text-[13px] text-brand-muted font-medium">
             <Icon name="download" size="sm" />
             Total Pemasukan
@@ -132,7 +132,7 @@ export const BerandaView: React.FC = () => {
         </div>
 
         {/* Pengeluaran */}
-        <div className="bg-white rounded-smarta-lg p-4.5 shadow-smarta1 border border-brand-line/40">
+        <div className="bg-white rounded-smarta-lg p-5 shadow-smarta1 border border-brand-line/40">
           <div className="flex items-center gap-2 text-[13px] text-brand-muted font-medium">
             <Icon name="card" size="sm" />
             Total Pengeluaran
@@ -148,7 +148,7 @@ export const BerandaView: React.FC = () => {
         </div>
 
         {/* Laba Bersih */}
-        <div className="bg-white rounded-smarta-lg p-4.5 shadow-smarta1 border border-brand-line/40">
+        <div className="bg-white rounded-smarta-lg p-5 shadow-smarta1 border border-brand-line/40">
           <div className="flex items-center gap-2 text-[13px] text-brand-muted font-medium">
             <Icon name="chart" size="sm" />
             Laba Bersih (Usaha)
@@ -166,7 +166,7 @@ export const BerandaView: React.FC = () => {
         </div>
 
         {/* Total Transaksi */}
-        <div className="bg-white rounded-smarta-lg p-4.5 shadow-smarta1 border border-brand-line/40">
+        <div className="bg-white rounded-smarta-lg p-5 shadow-smarta1 border border-brand-line/40">
           <div className="flex items-center gap-2 text-[13px] text-brand-muted font-medium">
             <Icon name="doc" size="sm" />
             Total Transaksi

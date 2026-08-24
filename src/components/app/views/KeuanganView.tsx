@@ -64,7 +64,7 @@ export const KeuanganView: React.FC<KeuanganViewProps> = ({ accountType }) => {
 
       {/* 3 Stat Cards */}
       <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
-        <div className="bg-white rounded-smarta-lg p-4.5 shadow-smarta1 border border-brand-line/40">
+        <div className="bg-white rounded-smarta-lg p-5 shadow-smarta1 border border-brand-line/40">
           <div className="flex items-center gap-2 text-[13px] text-brand-muted font-medium">
             <Icon name={accountType === "usaha" ? "store" : "person"} size="sm" />
             Saldo {label}
@@ -79,7 +79,7 @@ export const KeuanganView: React.FC<KeuanganViewProps> = ({ accountType }) => {
           <div className="text-xs text-brand-muted mt-1">{t.count} transaksi</div>
         </div>
 
-        <div className="bg-white rounded-smarta-lg p-4.5 shadow-smarta1 border border-brand-line/40">
+        <div className="bg-white rounded-smarta-lg p-5 shadow-smarta1 border border-brand-line/40">
           <div className="flex items-center gap-2 text-[13px] text-brand-muted font-medium">
             <Icon name="download" size="sm" />
             Pemasukan {label}
@@ -89,7 +89,7 @@ export const KeuanganView: React.FC<KeuanganViewProps> = ({ accountType }) => {
           </div>
         </div>
 
-        <div className="bg-white rounded-smarta-lg p-4.5 shadow-smarta1 border border-brand-line/40">
+        <div className="bg-white rounded-smarta-lg p-5 shadow-smarta1 border border-brand-line/40">
           <div className="flex items-center gap-2 text-[13px] text-brand-muted font-medium">
             <Icon name="card" size="sm" />
             Pengeluaran {label}

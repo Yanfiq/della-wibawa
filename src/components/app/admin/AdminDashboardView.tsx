@@ -67,7 +67,7 @@ export const AdminDashboardView: React.FC = () => {
 
       {/* 4 Summary Stat Cards */}
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
-        <div className="bg-white rounded-smarta-lg p-4.5 shadow-smarta1 border border-brand-line/40">
+        <div className="bg-white rounded-smarta-lg p-5 shadow-smarta1 border border-brand-line/40">
           <div className="flex items-center gap-2 text-[13px] text-brand-muted font-medium">
             <Icon name="users" size="sm" />
             Total Pengguna
@@ -80,7 +80,7 @@ export const AdminDashboardView: React.FC = () => {
           </div>
         </div>
 
-        <div className="bg-white rounded-smarta-lg p-4.5 shadow-smarta1 border border-brand-line/40">
+        <div className="bg-white rounded-smarta-lg p-5 shadow-smarta1 border border-brand-line/40">
           <div className="flex items-center gap-2 text-[13px] text-brand-muted font-medium">
             <Icon name="card" size="sm" />
             Langganan Aktif
@@ -93,7 +93,7 @@ export const AdminDashboardView: React.FC = () => {
           </div>
         </div>
 
-        <div className="bg-white rounded-smarta-lg p-4.5 shadow-smarta1 border border-brand-line/40">
+        <div className="bg-white rounded-smarta-lg p-5 shadow-smarta1 border border-brand-line/40">
           <div className="flex items-center gap-2 text-[13px] text-brand-muted font-medium">
             <Icon name="bell" size="sm" />
             Expired
@@ -106,7 +106,7 @@ export const AdminDashboardView: React.FC = () => {
           </div>
         </div>
 
-        <div className="bg-white rounded-smarta-lg p-4.5 shadow-smarta1 border border-brand-line/40">
+        <div className="bg-white rounded-smarta-lg p-5 shadow-smarta1 border border-brand-line/40">
           <div className="flex items-center gap-2 text-[13px] text-brand-muted font-medium">
             <Icon name="chart" size="sm" />
             Estimasi Pendapatan

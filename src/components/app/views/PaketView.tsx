@@ -164,7 +164,7 @@ export const PaketView: React.FC = () => {
 
       {/* 3 Summary Stat Cards */}
       <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mb-4">
-        <div className="bg-white rounded-smarta-lg p-4.5 shadow-smarta1 border border-brand-line/40">
+        <div className="bg-white rounded-smarta-lg p-5 shadow-smarta1 border border-brand-line/40">
           <div className="flex items-center gap-2 text-[13px] text-brand-muted font-medium">
             <Icon name="card" size="sm" />
             Status Langganan
@@ -191,7 +191,7 @@ export const PaketView: React.FC = () => {
           </div>
         </div>
 
-        <div className="bg-white rounded-smarta-lg p-4.5 shadow-smarta1 border border-brand-line/40">
+        <div className="bg-white rounded-smarta-lg p-5 shadow-smarta1 border border-brand-line/40">
           <div className="flex items-center gap-2 text-[13px] text-brand-muted font-medium">
             <Icon name="box" size="sm" />
             Paket Saat Ini
@@ -201,7 +201,7 @@ export const PaketView: React.FC = () => {
           </div>
         </div>
 
-        <div className="bg-white rounded-smarta-lg p-4.5 shadow-smarta1 border border-brand-line/40">
+        <div className="bg-white rounded-smarta-lg p-5 shadow-smarta1 border border-brand-line/40">
           <div className="flex items-center gap-2 text-[13px] text-brand-muted font-medium">
             <Icon name="calendar" size="sm" />
             Masa Berlaku
